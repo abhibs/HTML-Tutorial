@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Abhi's html tutorial</title>
+    <meta name="description" content="Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shivamoga
+577226">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/abhi.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand sticky-top bg-white shadow-lg">
+        <div class="container-fluid"><a class="navbar-brand" href="#">Abhiram</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="mt-5">
+        <h3 class="text-center">Chapter - 36</h3>
+        <h4 class="text-center">Map Tag</h4>
+    </div>
+    <div class="mt-5">
+        <h3>36.1. map tag :-</h3>
+        <p>The &lt;map&gt;….&lt;/map&gt; tag is used to define a client-side image-map. An image-map is an image with<br>clickable areas.<br></p>
+        <p>The &lt;map&gt;…. &lt;/map&gt; tag contains a number of &lt;area&gt; tags, that defines the clickable areas in the image map.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;map name=“mapname” id=“mapname”&gt; ……… &lt;/map&gt;<br><br></code>
+    </div>
+    <div class="mt-5">
+        <h3>36.2. area tag :-</h3>
+        <p>The &lt;area&gt; tag defines an area inside an image-map. An image-map is an image with clickable areas.<br></p>
+        <p>The &lt;area&gt; element is always nested inside a &lt;map&gt;….&lt;/map&gt; tag.<br></p>
+    </div>
+    <div class="table-responsive mt-5">
+        <table class="table">
+            <thead>
+                <tr class="text-white" style="background: #000000;">
+                    <th>Attribute</th>
+                    <th>Value</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>alt</td>
+                    <td>text</td>
+                    <td>Specifies an alternate text for the area. Required if the href attribute is present.<br></td>
+                </tr>
+                <tr>
+                    <td>coords</td>
+                    <td>coordinates</td>
+                    <td>Specifies the coordinates of the area.<br></td>
+                </tr>
+                <tr>
+                    <td>download</td>
+                    <td>filename</td>
+                    <td>Specifies that the target will be downloaded when a user clicks on the hyperlink.<br></td>
+                </tr>
+                <tr>
+                    <td>href</td>
+                    <td>URL</td>
+                    <td>Specifies the hyperlink target for the area.<br></td>
+                </tr>
+                <tr>
+                    <td>hreflang</td>
+                    <td>language_code</td>
+                    <td>Specifies the language of the target URL.<br></td>
+                </tr>
+                <tr>
+                    <td>media</td>
+                    <td>media query<br></td>
+                    <td>Specifies what media/device the target URL is optimized for.<br></td>
+                </tr>
+                <tr>
+                    <td>shape</td>
+                    <td>default<br>rect<br>circle<br>poly<br></td>
+                    <td>Specifies the shape of the area.<br></td>
+                </tr>
+                <tr>
+                    <td>target</td>
+                    <td>_blank<br>_parent<br>_self<br>_top<br>framename<br></td>
+                    <td>Specifies where to open the target URL.<br></td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>media_type<br></td>
+                    <td>Specifies the media type of the target URL.<br></td>
+                </tr>
+                <tr>
+                    <td>rel</td>
+                    <td>alternate<br>author<br>bookmark<br>help<br>license<br>next<br>nofollow<br>noreferrer<br>prefetch<br>prev<br>search<br>tag<br></td>
+                    <td>Specifies the relationship between the current document and the target URL.<br></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="mt-5">
+        <h3>36.3. Coords attribute :-</h3>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th>Value</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>x, y, x1, y1<br></td>
+                        <td>If rect, Specifies the coordinates of the left, top, right, bottom corner of the rectangle.<br></td>
+                    </tr>
+                    <tr>
+                        <td>x, y, radius<br></td>
+                        <td>If Circle, Specifies the coordinates of the circle center and the radius.<br></td>
+                    </tr>
+                    <tr>
+                        <td>x, y<br>x1, y1<br>&nbsp;,..,&nbsp;<br>xn, yn<br><br></td>
+                        <td>If poly, Specifies the coordinates of the edges of the polygon. If the first and last coordinate pairs are not the same, the browser will add the last coordinate pair to close the polygon.<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="mt-5">
+        <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;img&nbsp;src="assets/img/logog.jpg"&nbsp;usemap="#imap"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;map&nbsp;name="imap"&nbsp;id="#imap"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;area&nbsp;shape&nbsp;="rect"&nbsp;coords="0,0,209,108"&nbsp;href="http://www.geekyshows.com"&nbsp;target="_blank"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;area&nbsp;shape&nbsp;="circle"&nbsp;coords="351,57,30"&nbsp;href="https://www.youtube.com"&nbsp;target="_blank"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/map&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+        <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_77.html">output</a></div>
+    </div>
+    <div class="mt-5">
+        <p>how to attach link to an image coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="https://www.youtube.com"&nbsp;target="_blank"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;img&nbsp;src="assets/img/youtube.jpg"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/a&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+        <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_78.html">output</a></div>
+    </div>
+    <p class="text-center mb-5"><a class="btn btn-outline-dark btn-lg text-center" role="button" href="thirtyfive.html">Previous</a><a class="btn btn-outline-dark btn-lg text-center" role="button" href="thirtyseven.html">Next</a></p>
+    <footer class="footer-basic">
+        <p class="copyright"><strong><em>prepared by Abhiram B S</em></strong></p>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

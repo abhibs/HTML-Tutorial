@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Abhi's html tutorial</title>
+    <meta name="description" content="Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shivamoga
+577226">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/abhi.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand sticky-top bg-white shadow-lg">
+        <div class="container-fluid"><a class="navbar-brand" href="#">Abhiram</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="mt-5">
+        <h3 class="text-center">Chapter - 37</h3>
+        <h4 class="text-center">Audio Tag</h4>
+    </div>
+    <div class="mt-5">
+        <h4>37.1. audio tag :-</h4>
+        <p>The &lt;audio&gt; … &lt;/audio&gt; tag defines sound, such as music or other audio streams.<br></p>
+        <p>Supported Format : mp3, wav and ogg.<br></p>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th>Attribute</th>
+                        <th>Value</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>autoplay</td>
+                        <td>autoplay</td>
+                        <td>Specifies that the audio will start playing as soon as it is ready.<br></td>
+                    </tr>
+                    <tr>
+                        <td>controls</td>
+                        <td>controls</td>
+                        <td>Specifies that audio controls should be displayed (such as a play/pause button etc).<br></td>
+                    </tr>
+                    <tr>
+                        <td>loop</td>
+                        <td>loop</td>
+                        <td>Specifies that the audio will start over again, every time it is finished.<br></td>
+                    </tr>
+                    <tr>
+                        <td>muted</td>
+                        <td>muted</td>
+                        <td>Specifies that the audio output should be muted.<br></td>
+                    </tr>
+                    <tr>
+                        <td>preload</td>
+                        <td>auto<br>metadata<br>none<br></td>
+                        <td>Specifies if and how the author thinks the audio should be loaded when the page loads.<br></td>
+                    </tr>
+                    <tr>
+                        <td>src</td>
+                        <td>src<br></td>
+                        <td>Specifies the URL of the audio file.<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="mt-5">
+        <p>coding example with controls attribute and controls value :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;Music Files&lt;/h3&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;audio controls="controls" src="music.mp3"&gt;&lt;/audio&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+        <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_81.html">output</a></div>
+    </div>
+    <div class="mt-5">
+        <p>coding example with controls and autoplay attributes and controls and autoplay values :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;Music Files&lt;/h3&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;audio controls="controls" autoplay="autoplay" src="music.mp3"&gt;&lt;/audio&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+        <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_82.html">output</a></div>
+    </div>
+    <div class="mt-5">
+        <p>coding example with controls, muted and autoplay attributes and controls, muted and autoplay values :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;Music Files&lt;/h3&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;audio controls="controls" autoplay="autoplay" muted="muted" src="music.mp3"&gt;&lt;/audio&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+        <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_83.html">output</a></div>
+    </div>
+    <div class="mt-5">
+        <p>coding example with controls, muted, loop and autoplay attributes and controls, muted, loop and autoplay values :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;Music Files&lt;/h3&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;audio controls="controls" autoplay="autoplay" muted="muted" loop="loop" src="music.mp3"&gt;&lt;/audio&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+        <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_84.html">output</a></div>
+    </div>
+    <div class="mt-5">
+        <h4>37.2. preload :-</h4>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th><strong>Value</strong><br></th>
+                        <th><strong>Description</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>auto</td>
+                        <td>The author thinks that the browser should load the entire audio file when the page loads.<br></td>
+                    </tr>
+                    <tr>
+                        <td>metadata</td>
+                        <td>The author thinks that the browser should load only metadata when the page loads.<br></td>
+                    </tr>
+                    <tr>
+                        <td>none</td>
+                        <td>The author thinks that the browser should NOT load the audio file when the page loads.<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="mt-5">
+        <p>coding example preload attribute and auto value:-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;Music Files&lt;/h3&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;audio controls="controls" preload="auto" src="music.mp3"&gt;&lt;/audio&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+        <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_85.html">output</a></div>
+    </div>
+    <div class="mt-5">
+        <p>coding example preload attribute and metadata value:-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;Music Files&lt;/h3&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;audio controls="controls" preload="metadata" src="music.mp3"&gt;&lt;/audio&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+        <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_86.html">output</a></div>
+    </div>
+    <div class="mt-5">
+        <p>coding example preload attribute and none value:-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;Music Files&lt;/h3&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;audio controls="controls" preload="none" src="music.mp3"&gt;&lt;/audio&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+        <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_87.html">output</a></div>
+    </div>
+    <p class="text-center mb-5"><a class="btn btn-outline-dark btn-lg text-center" role="button" href="thirtysix.html">Previous</a><a class="btn btn-outline-dark btn-lg text-center" role="button" href="thirtyeight.html">Next</a></p>
+    <footer class="footer-basic">
+        <p class="copyright"><strong><em>prepared by Abhiram B S</em></strong></p>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Abhi's html tutorial</title>
+    <meta name="description" content="Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shivamoga
+577226">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/abhi.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand sticky-top bg-white shadow-lg">
+        <div class="container-fluid"><a class="navbar-brand" href="#">Abhiram</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="mt-5">
+        <h3 class="text-center">Chapter - 33</h3>
+        <h4 class="text-center">Anchor tag</h4>
+    </div>
+    <div class="mt-5">
+        <h4>33.1. &lt;a&gt; tag:-</h4>
+        <p>We can create hyperlink using the anchor tag.<br></p>
+        <h4>33.2. What is Hyperlink ?</h4>
+        <p>A hyperlink is a link between web pages and it is used to connect one web page to another. <br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;a href=“http://www.google.com”&gt;google&lt;/a&gt;<br></code>
+    </div>
+    <div class="mt-5">
+        <h4>33.3. Anchor tag Attributes :-</h4>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th>Attribute</th>
+                        <th>Value</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>href</td>
+                        <td>URL<br>reference</td>
+                        <td>Specifies the URL as destination web page or different section of web page.<br></td>
+                    </tr>
+                    <tr>
+                        <td>download</td>
+                        <td>filename</td>
+                        <td>Specifies that the target will be downloaded when a user clicks on the hyperlink.<br></td>
+                    </tr>
+                    <tr>
+                        <td>media</td>
+                        <td>media_query<br></td>
+                        <td>Specifies what media/device the linked document is optimized.<br></td>
+                    </tr>
+                    <tr>
+                        <td>hreflang</td>
+                        <td>language_code<br></td>
+                        <td>Specifies the language of the linked document.<br></td>
+                    </tr>
+                    <tr>
+                        <td>type<br></td>
+                        <td>media_type<br></td>
+                        <td>Specifies the media type of the linked document.<br></td>
+                    </tr>
+                    <tr>
+                        <td>target<br></td>
+                        <td>_blank<br>_parent<br>_top<br>framename<br>_self<br></td>
+                        <td>Opens the linked document in a new window or tab.<br>Opens the linked document in the parent frame.<br>Opens the linked document in the full body of the window.<br>Opens the linked document in a named frame.<br>Opens the linked document in the same frame as it was clicked (this is default).<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>example :-</p><code class="text-dark">&lt;a href="http://www.google.com" target="_blank"&gt;Google&lt;/a&gt;<br><br></code>
+    </div>
+    <div class="mt-5">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th>Attribute</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>rel</td>
+                        <td>alternate<br>author<br>bookmark<br>help<br>license<br>next<br>nofollow<br>noreferrer<br>prefetch<br>prev<br>search<br>tag<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>The rel attribute specifies the relationship between the current document and the linked document.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;a rel="nofollow" href="http://www.google.com/"&gt;Google&lt;/a&gt;<br><br></code>
+    </div>
+    <div class="mt-5">
+        <h4>33.4. href attributes :-</h4>
+        <p>Syntax :-&nbsp;</p><code class="text-dark">&lt;a href=“URL"&gt;<br></code>
+        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+        <p>An absolute URL - points to another web site.&nbsp;</p>
+        <p>example :-</p><code class="text-dark">&lt;a href=“http://www.geekyshows.com"&gt;<br></code>
+        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="http://www.google.com"&gt;Google&lt;/a&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_51.html">output</a></div>
+        </div>
+        <p>A relative URL - points to a file within a web site.&nbsp;</p>
+        <p>example :-</p><code class="text-dark">&lt;a href=“abhi.html"&gt;<br></code>
+        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="abhi.html"&gt;Abhiram&lt;/a&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_52.html">output</a></div>
+        </div>
+        <p>Link to an element with a specified id within the page.&nbsp;</p>
+        <p>example :-</p><code class="text-dark">&lt;a href=“#bottom"&gt;<br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="#imp"&gt;Important&lt;/a&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;p&nbsp;id="top"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Once&nbsp;upon&nbsp;a&nbsp;time,&nbsp;all&nbsp;the&nbsp;birds&nbsp;-&nbsp;the&nbsp;swans,&nbsp;cranes,&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;parrots,&nbsp;cuckoos,&nbsp;owls,&nbsp;peacocks,&nbsp;doves&nbsp;and&nbsp;the&nbsp;rest&nbsp;of&nbsp;them&nbsp;-&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;decided&nbsp;to&nbsp;meet.&nbsp;They&nbsp;had&nbsp;to&nbsp;discuss&nbsp;a&nbsp;subject&nbsp;of&nbsp;most&nbsp;importance.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Unfortunately,&nbsp;no&nbsp;crow&nbsp;had&nbsp;joined&nbsp;yet,&nbsp;but&nbsp;they&nbsp;could&nbsp;not&nbsp;wait&nbsp;any&nbsp;longer.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;They&nbsp;debated,&nbsp;"Garuda,&nbsp;who&nbsp;is&nbsp;the&nbsp;king&nbsp;of&nbsp;all&nbsp;birds,&nbsp;is&nbsp;always&nbsp;busy&nbsp;in&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;serving&nbsp;his&nbsp;master.&nbsp;He&nbsp;has&nbsp;neither&nbsp;the&nbsp;time,&nbsp;nor&nbsp;the&nbsp;interest&nbsp;to&nbsp;bother&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;about&nbsp;us!&nbsp;There&nbsp;is&nbsp;no&nbsp;point&nbsp;in&nbsp;having&nbsp;a&nbsp;king&nbsp;who&nbsp;does&nbsp;not&nbsp;protect&nbsp;and&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;remains&nbsp;at&nbsp;the&nbsp;position&nbsp;of&nbsp;the&nbsp;king&nbsp;only&nbsp;as&nbsp;a&nbsp;namesake."&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;And&nbsp;so&nbsp;the&nbsp;birds&nbsp;discussed,&nbsp;"Let&nbsp;us&nbsp;choose&nbsp;a&nbsp;king&nbsp;amongst&nbsp;us!"&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;On&nbsp;this,&nbsp;they&nbsp;started&nbsp;looking&nbsp;at&nbsp;each&nbsp;other;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;suddenly&nbsp;the&nbsp;features&nbsp;of&nbsp;owl&nbsp;attracted&nbsp;everybody.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;He&nbsp;was&nbsp;powerful,&nbsp;had&nbsp;impressive&nbsp;features,&nbsp;and&nbsp;most&nbsp;importantly&nbsp;he&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;could&nbsp;see&nbsp;at&nbsp;night,&nbsp;when&nbsp;they&nbsp;were&nbsp;most&nbsp;unsafe.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Once&nbsp;upon&nbsp;a&nbsp;time,&nbsp;all&nbsp;the&nbsp;birds&nbsp;-&nbsp;the&nbsp;swans,&nbsp;cranes,&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;parrots,&nbsp;cuckoos,&nbsp;owls,&nbsp;peacocks,&nbsp;doves&nbsp;and&nbsp;the&nbsp;rest&nbsp;of&nbsp;them&nbsp;-&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;decided&nbsp;to&nbsp;meet.&nbsp;They&nbsp;had&nbsp;to&nbsp;discuss&nbsp;a&nbsp;subject&nbsp;of&nbsp;most&nbsp;importance.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Unfortunately,&nbsp;no&nbsp;crow&nbsp;had&nbsp;joined&nbsp;yet,&nbsp;but&nbsp;they&nbsp;could&nbsp;not&nbsp;wait&nbsp;any&nbsp;longer.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;They&nbsp;debated,&nbsp;"Garuda,&nbsp;who&nbsp;is&nbsp;the&nbsp;king&nbsp;of&nbsp;all&nbsp;birds,&nbsp;is&nbsp;always&nbsp;busy&nbsp;in&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;serving&nbsp;his&nbsp;master.&nbsp;He&nbsp;has&nbsp;neither&nbsp;the&nbsp;time,&nbsp;nor&nbsp;the&nbsp;interest&nbsp;to&nbsp;bother&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;about&nbsp;us!&nbsp;There&nbsp;is&nbsp;no&nbsp;point&nbsp;in&nbsp;having&nbsp;a&nbsp;king&nbsp;who&nbsp;does&nbsp;not&nbsp;protect&nbsp;and&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;remains&nbsp;at&nbsp;the&nbsp;position&nbsp;of&nbsp;the&nbsp;king&nbsp;only&nbsp;as&nbsp;a&nbsp;namesake."&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; And&nbsp;so&nbsp;the&nbsp;birds&nbsp;discussed,&nbsp;"Let&nbsp;us&nbsp;choose&nbsp;a&nbsp;king&nbsp;amongst&nbsp;us!"&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; On&nbsp;this,&nbsp;they&nbsp;started&nbsp;looking&nbsp;at&nbsp;each&nbsp;other;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; suddenly&nbsp;the&nbsp;features&nbsp;of&nbsp;owl&nbsp;attracted&nbsp;everybody.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; He&nbsp;was&nbsp;powerful,&nbsp;had&nbsp;impressive&nbsp;features,&nbsp;and&nbsp;most&nbsp;importantly&nbsp;he&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; could&nbsp;see&nbsp;at&nbsp;night,&nbsp;when&nbsp;they&nbsp;were&nbsp;most&nbsp;unsafe.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Once&nbsp;upon&nbsp;a&nbsp;time,&nbsp;all&nbsp;the&nbsp;birds&nbsp;-&nbsp;the&nbsp;swans,&nbsp;cranes ,&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; parrots,&nbsp;cuckoos,&nbsp;owls,&nbsp;peacocks,&nbsp;doves&nbsp;and&nbsp;the&nbsp;rest&nbsp;of&nbsp;them&nbsp;-&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; decided&nbsp;to&nbsp;meet.&nbsp;They&nbsp;had&nbsp;to&nbsp;discuss&nbsp;a&nbsp;subject&nbsp;of&nbsp;most&nbsp;importance.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Unfortunately,&nbsp;no&nbsp;crow&nbsp;had&nbsp;joined&nbsp;yet,&nbsp;but&nbsp;they&nbsp;could&nbsp;not&nbsp;wait&nbsp;any&nbsp;longer.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; They&nbsp;debated,&nbsp;"Garuda,&nbsp;who&nbsp;is&nbsp;the&nbsp;king&nbsp;of&nbsp;all&nbsp;birds,&nbsp;is&nbsp;always&nbsp;busy&nbsp;in&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;serving&nbsp;his&nbsp;master.&nbsp;He&nbsp;has&nbsp;neither&nbsp;the&nbsp;time,&nbsp;nor&nbsp;the&nbsp;interest&nbsp;to&nbsp;bother&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; about&nbsp;us!&nbsp;There&nbsp;is&nbsp;no&nbsp;point&nbsp;in&nbsp;having&nbsp;a&nbsp;king&nbsp;who&nbsp;does&nbsp;not&nbsp;protect&nbsp;and&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; remains&nbsp;at&nbsp;the&nbsp;position&nbsp;of&nbsp;the&nbsp;king&nbsp;only&nbsp;as&nbsp;a&nbsp;namesake."&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; And&nbsp;so&nbsp;the&nbsp;birds&nbsp;discussed,&nbsp;"Let&nbsp;us&nbsp;choose&nbsp;a&nbsp;king&nbsp;amongst&nbsp;us!"&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; On&nbsp;this,&nbsp;they&nbsp;started&nbsp;looking&nbsp;at&nbsp;each&nbsp;other;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; suddenly&nbsp;the&nbsp;features&nbsp;of&nbsp;owl&nbsp;attracted&nbsp;everybody.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; He&nbsp;was&nbsp;powerful,&nbsp;had&nbsp;impressive&nbsp;features,&nbsp;and&nbsp;most&nbsp;importantly&nbsp;he&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; could&nbsp;see&nbsp;at&nbsp;night,&nbsp;when&nbsp;they&nbsp;were&nbsp;most&nbsp;unsafe.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Once&nbsp;upon&nbsp;a&nbsp;time,&nbsp;all&nbsp;the&nbsp;birds&nbsp;-&nbsp;the&nbsp;swans,&nbsp;cranes,&lt;br&gt;&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; parrots,&nbsp;cuckoos,&nbsp;owls,&nbsp;peacocks,&nbsp;doves&nbsp;and&nbsp;the&nbsp;rest&nbsp;of&nbsp;them&nbsp;-&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; decided&nbsp;to&nbsp;meet.&nbsp;They&nbsp;had&nbsp;to&nbsp;discuss&nbsp;a&nbsp;subject&nbsp;of&nbsp;most&nbsp;importance.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Unfortunately,&nbsp;no&nbsp;crow&nbsp;had&nbsp;joined&nbsp;yet,&nbsp;but&nbsp;they&nbsp;could&nbsp;not&nbsp;wait&nbsp;any&nbsp;longer.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; They&nbsp;debated,&nbsp;"Garuda,&nbsp;who&nbsp;is&nbsp;the&nbsp;king&nbsp;of&nbsp;all&nbsp;birds,&nbsp;is&nbsp;always&nbsp;busy&nbsp;in&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; serving&nbsp;his&nbsp;master.&nbsp;He&nbsp;has&nbsp;neither&nbsp;the&nbsp;time,&nbsp;nor&nbsp;the&nbsp;interest&nbsp;to&nbsp;bother&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; about&nbsp;us!&nbsp;There&nbsp;is&nbsp;no&nbsp;point&nbsp;in&nbsp;having&nbsp;a&nbsp;king&nbsp;who&nbsp;does&nbsp;not&nbsp;protect&nbsp;and&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; remains&nbsp;at&nbsp;the&nbsp;position&nbsp;of&nbsp;the&nbsp;king&nbsp;only&nbsp;as&nbsp;a&nbsp;namesake."&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; And&nbsp;so&nbsp;the&nbsp;birds&nbsp;discussed,&nbsp;"Let&nbsp;us&nbsp;choose&nbsp;a&nbsp;king&nbsp;amongst&nbsp;us!"&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; On&nbsp;this,&nbsp;they&nbsp;started&nbsp;looking&nbsp;at&nbsp;each&nbsp;other;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; suddenly&nbsp;the&nbsp;features&nbsp;of&nbsp;owl&nbsp;attracted&nbsp;everybody.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; He&nbsp;was&nbsp;powerful,&nbsp;had&nbsp;impressive&nbsp;features,&nbsp;and&nbsp;most&nbsp;importantly&nbsp;he&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; could&nbsp;see&nbsp;at&nbsp;night,&nbsp;when&nbsp;they&nbsp;were&nbsp;most&nbsp;unsafe.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; They&nbsp;agreed&nbsp;that&nbsp;the&nbsp;owl&nbsp;would&nbsp;be&nbsp;an&nbsp;apt&nbsp;king&nbsp;for&nbsp;themselves.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; They&nbsp;shouted,&nbsp;"The&nbsp;owl&nbsp;should&nbsp;be&nbsp;our&nbsp;king!&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Let&nbsp;us&nbsp;prepare&nbsp;for&nbsp;the&nbsp;coronation&nbsp;at&nbsp;once!"&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; As&nbsp;decided,&nbsp;the&nbsp;birds&nbsp;collected&nbsp;108&nbsp;holy&nbsp;roots,&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; water&nbsp;from&nbsp;the&nbsp;holy&nbsp;rivers,&nbsp;and&nbsp;prepared&nbsp;a&nbsp;lavish&nbsp;and&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; highly&nbsp;decorated&nbsp;throne.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; They&nbsp;even&nbsp;spread&nbsp;the&nbsp;ground&nbsp;in&nbsp;front&nbsp;of&nbsp;the&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; throne&nbsp;with&nbsp;tiger&nbsp;skin.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The&nbsp;Brahmins,&nbsp;they&nbsp;had&nbsp;invited,&nbsp;started&nbsp;chanting&nbsp;from&nbsp;holy&nbsp;books,&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; while&nbsp;the&nbsp;birds&nbsp;beat&nbsp;drums,&nbsp;and&nbsp;beautiful&nbsp;maidens&nbsp;blew&nbsp;conches&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and&nbsp;sand&nbsp;songs&nbsp;of&nbsp;joy.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;With&nbsp;a&nbsp;map&nbsp;of&nbsp;all&nbsp;the&nbsp;continents&nbsp;and&nbsp;oceans&nbsp;drawn,&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; the&nbsp;owl&nbsp;was&nbsp;prepared&nbsp;to&nbsp;be&nbsp;crowned.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&nbsp;id="imp"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Goodwill&nbsp;is&nbsp;that&nbsp;unseen&nbsp;force&nbsp;which&nbsp;is&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;complicated&nbsp;to&nbsp;earn&nbsp;and&nbsp;takes&nbsp;years&nbsp;to&nbsp;build&nbsp;but&nbsp;once&nbsp;earned,&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;its&nbsp;profit&nbsp;can&nbsp;be&nbsp;reap&nbsp;for&nbsp;several&nbsp;years&nbsp;and&nbsp;generations.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/h3&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Once&nbsp;upon&nbsp;a&nbsp;time,&nbsp;all&nbsp;the&nbsp;birds&nbsp;-&nbsp;the&nbsp;swans,&nbsp;cranes,&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;parrots,&nbsp;cuckoos,&nbsp;owls,&nbsp;peacocks,&nbsp;doves&nbsp;and&nbsp;the&nbsp;rest&nbsp;of&nbsp;them&nbsp;-&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;decided&nbsp;to&nbsp;meet.&nbsp;They&nbsp;had&nbsp;to&nbsp;discuss&nbsp;a&nbsp;subject&nbsp;of&nbsp;most&nbsp;importance.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Unfortunately,&nbsp;no&nbsp;crow&nbsp;had&nbsp;joined&nbsp;yet,&nbsp;but&nbsp;they&nbsp;could&nbsp;not&nbsp;wait&nbsp;any&nbsp;longer.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;They&nbsp;debated,&nbsp;"Garuda,&nbsp;who&nbsp;is&nbsp;the&nbsp;king&nbsp;of&nbsp;all&nbsp;birds,&nbsp;is&nbsp;always&nbsp;busy&nbsp;in&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;serving&nbsp;his&nbsp;master.&nbsp;He&nbsp;has&nbsp;neither&nbsp;the&nbsp;time,&nbsp;nor&nbsp;the&nbsp;interest&nbsp;to&nbsp;bother&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;about&nbsp;us!&nbsp;There&nbsp;is&nbsp;no&nbsp;point&nbsp;in&nbsp;having&nbsp;a&nbsp;king&nbsp;who&nbsp;does&nbsp;not&nbsp;protect&nbsp;and&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;remains&nbsp;at&nbsp;the&nbsp;position&nbsp;of&nbsp;the&nbsp;king&nbsp;only&nbsp;as&nbsp;a&nbsp;namesake."&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;And&nbsp;so&nbsp;the&nbsp;birds&nbsp;discussed,&nbsp;"Let&nbsp;us&nbsp;choose&nbsp;a&nbsp;king&nbsp;amongst&nbsp;us!"&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;On&nbsp;this,&nbsp;they&nbsp;started&nbsp;looking&nbsp;at&nbsp;each&nbsp;other;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;suddenly&nbsp;the&nbsp;features&nbsp;of&nbsp;owl&nbsp;attracted&nbsp;everybody.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;He&nbsp;was&nbsp;powerful,&nbsp;had&nbsp;impressive&nbsp;features,&nbsp;and&nbsp;most&nbsp;importantly&nbsp;he&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;could&nbsp;see&nbsp;at&nbsp;night,&nbsp;when&nbsp;they&nbsp;were&nbsp;most&nbsp;unsafe.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Once&nbsp;upon&nbsp;a&nbsp;time,&nbsp;all&nbsp;the&nbsp;birds&nbsp;-&nbsp;the&nbsp;swans,&nbsp;cranes,&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;parrots,&nbsp;cuckoos,&nbsp;owls,&nbsp;peacocks,&nbsp;doves&nbsp;and&nbsp;the&nbsp;rest&nbsp;of&nbsp;them&nbsp;-&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;decided&nbsp;to&nbsp;meet.&nbsp;They&nbsp;had&nbsp;to&nbsp;discuss&nbsp;a&nbsp;subject&nbsp;of&nbsp;most&nbsp;importance.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Unfortunately,&nbsp;no&nbsp;crow&nbsp;had&nbsp;joined&nbsp;yet,&nbsp;but&nbsp;they&nbsp;could&nbsp;not&nbsp;wait&nbsp;any&nbsp;longer.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;They&nbsp;debated,&nbsp;"Garuda,&nbsp;who&nbsp;is&nbsp;the&nbsp;king&nbsp;of&nbsp;all&nbsp;birds,&nbsp;is&nbsp;always&nbsp;busy&nbsp;in&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;serving&nbsp;his&nbsp;master.&nbsp;He&nbsp;has&nbsp;neither&nbsp;the&nbsp;time,&nbsp;nor&nbsp;the&nbsp;interest&nbsp;to&nbsp;bother&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;about&nbsp;us!&nbsp;There&nbsp;is&nbsp;no&nbsp;point&nbsp;in&nbsp;having&nbsp;a&nbsp;king&nbsp;who&nbsp;does&nbsp;not&nbsp;protect&nbsp;and&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;remains&nbsp;at&nbsp;the&nbsp;position&nbsp;of&nbsp;the&nbsp;king&nbsp;only&nbsp;as&nbsp;a&nbsp;namesake."&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; And&nbsp;so&nbsp;the&nbsp;birds&nbsp;discussed,&nbsp;"Let&nbsp;us&nbsp;choose&nbsp;a&nbsp;king&nbsp;amongst&nbsp;us!"&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; On&nbsp;this,&nbsp;they&nbsp;started&nbsp;looking&nbsp;at&nbsp;each&nbsp;other;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; suddenly&nbsp;the&nbsp;features&nbsp;of&nbsp;owl&nbsp;attracted&nbsp;everybody.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; He&nbsp;was&nbsp;powerful,&nbsp;had&nbsp;impressive&nbsp;features,&nbsp;and&nbsp;most&nbsp;importantly&nbsp;he&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; could&nbsp;see&nbsp;at&nbsp;night,&nbsp;when&nbsp;they&nbsp;were&nbsp;most&nbsp;unsafe.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Once&nbsp;upon&nbsp;a&nbsp;time,&nbsp;all&nbsp;the&nbsp;birds&nbsp;-&nbsp;the&nbsp;swans,&nbsp;cranes ,&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; parrots,&nbsp;cuckoos,&nbsp;owls,&nbsp;peacocks,&nbsp;doves&nbsp;and&nbsp;the&nbsp;rest&nbsp;of&nbsp;them&nbsp;-&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; decided&nbsp;to&nbsp;meet.&nbsp;They&nbsp;had&nbsp;to&nbsp;discuss&nbsp;a&nbsp;subject&nbsp;of&nbsp;most&nbsp;importance.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Unfortunately,&nbsp;no&nbsp;crow&nbsp;had&nbsp;joined&nbsp;yet,&nbsp;but&nbsp;they&nbsp;could&nbsp;not&nbsp;wait&nbsp;any&nbsp;longer.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; They&nbsp;debated,&nbsp;"Garuda,&nbsp;who&nbsp;is&nbsp;the&nbsp;king&nbsp;of&nbsp;all&nbsp;birds,&nbsp;is&nbsp;always&nbsp;busy&nbsp;in&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;serving&nbsp;his&nbsp;master.&nbsp;He&nbsp;has&nbsp;neither&nbsp;the&nbsp;time,&nbsp;nor&nbsp;the&nbsp;interest&nbsp;to&nbsp;bother&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; about&nbsp;us!&nbsp;There&nbsp;is&nbsp;no&nbsp;point&nbsp;in&nbsp;having&nbsp;a&nbsp;king&nbsp;who&nbsp;does&nbsp;not&nbsp;protect&nbsp;and&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; remains&nbsp;at&nbsp;the&nbsp;position&nbsp;of&nbsp;the&nbsp;king&nbsp;only&nbsp;as&nbsp;a&nbsp;namesake."&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; And&nbsp;so&nbsp;the&nbsp;birds&nbsp;discussed,&nbsp;"Let&nbsp;us&nbsp;choose&nbsp;a&nbsp;king&nbsp;amongst&nbsp;us!"&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; On&nbsp;this,&nbsp;they&nbsp;started&nbsp;looking&nbsp;at&nbsp;each&nbsp;other;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; suddenly&nbsp;the&nbsp;features&nbsp;of&nbsp;owl&nbsp;attracted&nbsp;everybody.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; He&nbsp;was&nbsp;powerful,&nbsp;had&nbsp;impressive&nbsp;features,&nbsp;and&nbsp;most&nbsp;importantly&nbsp;he&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; could&nbsp;see&nbsp;at&nbsp;night,&nbsp;when&nbsp;they&nbsp;were&nbsp;most&nbsp;unsafe.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Once&nbsp;upon&nbsp;a&nbsp;time,&nbsp;all&nbsp;the&nbsp;birds&nbsp;-&nbsp;the&nbsp;swans,&nbsp;cranes,&lt;br&gt;&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; parrots,&nbsp;cuckoos,&nbsp;owls,&nbsp;peacocks,&nbsp;doves&nbsp;and&nbsp;the&nbsp;rest&nbsp;of&nbsp;them&nbsp;-&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; decided&nbsp;to&nbsp;meet.&nbsp;They&nbsp;had&nbsp;to&nbsp;discuss&nbsp;a&nbsp;subject&nbsp;of&nbsp;most&nbsp;importance.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Unfortunately,&nbsp;no&nbsp;crow&nbsp;had&nbsp;joined&nbsp;yet,&nbsp;but&nbsp;they&nbsp;could&nbsp;not&nbsp;wait&nbsp;any&nbsp;longer.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; They&nbsp;debated,&nbsp;"Garuda,&nbsp;who&nbsp;is&nbsp;the&nbsp;king&nbsp;of&nbsp;all&nbsp;birds,&nbsp;is&nbsp;always&nbsp;busy&nbsp;in&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; serving&nbsp;his&nbsp;master.&nbsp;He&nbsp;has&nbsp;neither&nbsp;the&nbsp;time,&nbsp;nor&nbsp;the&nbsp;interest&nbsp;to&nbsp;bother&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; about&nbsp;us!&nbsp;There&nbsp;is&nbsp;no&nbsp;point&nbsp;in&nbsp;having&nbsp;a&nbsp;king&nbsp;who&nbsp;does&nbsp;not&nbsp;protect&nbsp;and&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; remains&nbsp;at&nbsp;the&nbsp;position&nbsp;of&nbsp;the&nbsp;king&nbsp;only&nbsp;as&nbsp;a&nbsp;namesake."&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; And&nbsp;so&nbsp;the&nbsp;birds&nbsp;discussed,&nbsp;"Let&nbsp;us&nbsp;choose&nbsp;a&nbsp;king&nbsp;amongst&nbsp;us!"&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; On&nbsp;this,&nbsp;they&nbsp;started&nbsp;looking&nbsp;at&nbsp;each&nbsp;other;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; suddenly&nbsp;the&nbsp;features&nbsp;of&nbsp;owl&nbsp;attracted&nbsp;everybody.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; He&nbsp;was&nbsp;powerful,&nbsp;had&nbsp;impressive&nbsp;features,&nbsp;and&nbsp;most&nbsp;importantly&nbsp;he&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; could&nbsp;see&nbsp;at&nbsp;night,&nbsp;when&nbsp;they&nbsp;were&nbsp;most&nbsp;unsafe.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; They&nbsp;agreed&nbsp;that&nbsp;the&nbsp;owl&nbsp;would&nbsp;be&nbsp;an&nbsp;apt&nbsp;king&nbsp;for&nbsp;themselves.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; They&nbsp;shouted,&nbsp;"The&nbsp;owl&nbsp;should&nbsp;be&nbsp;our&nbsp;king!&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Let&nbsp;us&nbsp;prepare&nbsp;for&nbsp;the&nbsp;coronation&nbsp;at&nbsp;once!"&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; As&nbsp;decided,&nbsp;the&nbsp;birds&nbsp;collected&nbsp;108&nbsp;holy&nbsp;roots,&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; water&nbsp;from&nbsp;the&nbsp;holy&nbsp;rivers,&nbsp;and&nbsp;prepared&nbsp;a&nbsp;lavish&nbsp;and&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; highly&nbsp;decorated&nbsp;throne.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; They&nbsp;even&nbsp;spread&nbsp;the&nbsp;ground&nbsp;in&nbsp;front&nbsp;of&nbsp;the&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; throne&nbsp;with&nbsp;tiger&nbsp;skin.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The&nbsp;Brahmins,&nbsp;they&nbsp;had&nbsp;invited,&nbsp;started&nbsp;chanting&nbsp;from&nbsp;holy&nbsp;books,&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; while&nbsp;the&nbsp;birds&nbsp;beat&nbsp;drums,&nbsp;and&nbsp;beautiful&nbsp;maidens&nbsp;blew&nbsp;conches&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and&nbsp;sand&nbsp;songs&nbsp;of&nbsp;joy.&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;With&nbsp;a&nbsp;map&nbsp;of&nbsp;all&nbsp;the&nbsp;continents&nbsp;and&nbsp;oceans&nbsp;drawn,&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; the&nbsp;owl&nbsp;was&nbsp;prepared&nbsp;to&nbsp;be&nbsp;crowned.&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;a&nbsp;href="#top"&gt;Go&nbsp;to&nbsp;Top&lt;/a&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_53.html">output</a></div>
+        </div>
+        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+        <p>Other protocols.&nbsp;<br></p>
+        <p>example :-</p><code class="text-dark">https://, ftp://, mailto:, file:, etc..<br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="mailto:abhirambs97@gmail.com"&gt;Mail Me&lt;/a&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_54.html">output</a></div>
+        </div>
+        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+        <p>A script</p>
+        <p>example :-</p><code class="text-dark">href=‘javascript:alert(“Hello”);’<br><br></code>
+    </div>
+    <div class="mt-5">
+        <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;a&nbsp;href='javascript:alert("Hello&nbsp;Abhiram");'&gt;Click&nbsp;Me&lt;/a&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+        <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_55.html">output</a></div>
+    </div>
+    <div class="mt-5">
+        <h4>33.5. Download Attributes :-</h4>
+        <p>The download attribute specifies that the target will be downloaded when a user clicks on the hyperlink.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;a href="/images/example.jpg" download=“Abhiram"&gt;<br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="assets/img/img_1.jpg" download&gt;Image&lt;/a&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="abhi.html" download&gt;File&lt;/a&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_56.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>33.6. Media Attributes :-</h4>
+        <p>The media attribute specifies what media/device the linked document is optimized for. This attribute is used to specify that the target URL is designed for special devices (like iPhone and android etc) ,speech or print media.<br></p>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th>Value</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>width<br></td>
+                        <td>Specifies the width of the targeted display area. "min-" and "max-" prefixes can be used.<br>example:-&nbsp;<br>media="screen and (min-width:500px)"<br></td>
+                    </tr>
+                    <tr>
+                        <td>height<br></td>
+                        <td>Specifies the height of the&nbsp; targeted display area. "min-" and "max-" prefixes can be used.<br>example:-&nbsp;<br>media="screen and (max-height:700px)"<br></td>
+                    </tr>
+                    <tr>
+                        <td>device-width<br></td>
+                        <td>Specifies the width of the target display/paper. "min-" and "max-" prefixes can be used.<br>example:-&nbsp;<br>media="screen and (device-width:500px)"<br></td>
+                    </tr>
+                    <tr>
+                        <td>device-height<br></td>
+                        <td>Specifies the height of the target display/paper. "min-" and "max-" prefixes can be used.<br>example:-&nbsp;<br>media="screen and (device-height:500px)"<br></td>
+                    </tr>
+                    <tr>
+                        <td>orientation</td>
+                        <td>Specifies the orientation of the target display/paper. Possible values: "portrait" or "landscape".&nbsp;<br>example:-&nbsp;<br>media="all and (orientation: landscape)"<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th>Value</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>aspect-ratio<br></td>
+                        <td>Specifies the width/height ratio of the targeted display area. "min-" and "max-" prefixes can be used.<br>example:-&nbsp;<br>media="screen and (aspect-ratio:16/9)"<br></td>
+                    </tr>
+                    <tr>
+                        <td>device-aspect ratio<br></td>
+                        <td>Specifies the device-width/device-height ratio of the target display/paper. "min-" and "max-" prefixes can be used.<br>example:-&nbsp;<br>media="screen and (aspect-ratio:16/9)"<br></td>
+                    </tr>
+                    <tr>
+                        <td>color<br><br></td>
+                        <td>Specifies the bits per color of target display. "min-" and "max-" prefixes can be used.<br>example:-&nbsp;<br>media="screen and (color:3)"<br></td>
+                    </tr>
+                    <tr>
+                        <td>color-index<br></td>
+                        <td>Specifies the number of colors the target display can handle. "min-" and "max-" prefixes can be used.<br>example:-&nbsp;<br>media="screen and (min-color-index:256)"<br></td>
+                    </tr>
+                    <tr>
+                        <td>monochrome<br></td>
+                        <td>Specifies the bits per pixel in a monochrome frame buffer. "min-" and "max-" prefixes can be used.<br>example:-&nbsp;<br>media="screen and (monochrome:2)"<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th>Value</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>resolution<br></td>
+                        <td>Specifies the pixel density (dpi or dpcm)<br>of the target display/paper. "min-" and "max-" prefixes can be used.<br>example:-&nbsp;<br>media="print and (resolution:300dpi)"<br></td>
+                    </tr>
+                    <tr>
+                        <td>scan<br></td>
+                        <td>Specifies scanning method of a tv display. Possible values are "progressive" and "interlace".<br>example:-&nbsp;<br>media="tv and (scan:interlace)"<br></td>
+                    </tr>
+                    <tr>
+                        <td>grid<br></td>
+                        <td>Specifies if the output device is grid or bitmap. Possible values are "1" for grid, and "0" otherwise.<br>example:-&nbsp;<br>media="handheld and (grid:1)"<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th>Value</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>all<br></td>
+                        <td>Default. Suitable for all devices<br></td>
+                    </tr>
+                    <tr>
+                        <td>aural<br></td>
+                        <td>Speech synthesizers.<br></td>
+                    </tr>
+                    <tr>
+                        <td>braille<br></td>
+                        <td>Braille feedback devices.<br></td>
+                    </tr>
+                    <tr>
+                        <td>handheld<br></td>
+                        <td>Handheld devices (small screen, limited bandwidth).<br></td>
+                    </tr>
+                    <tr>
+                        <td>projection<br></td>
+                        <td>Projectors.<br></td>
+                    </tr>
+                    <tr>
+                        <td>print<br></td>
+                        <td>Print preview mode/printed pages.<br></td>
+                    </tr>
+                    <tr>
+                        <td>screen<br></td>
+                        <td>Computer screens<br></td>
+                    </tr>
+                    <tr>
+                        <td>tty<br></td>
+                        <td>Teletypes and similar media using a fixed-pitch character grid.<br></td>
+                    </tr>
+                    <tr>
+                        <td>tv<br></td>
+                        <td>Television type devices (low resolution, limited scroll ability).<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;a&nbsp;href="abhi.html"&nbsp;media="all"&gt;Click&nbsp;Here&lt;/a&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_57.html">output</a></div>
+        </div>
+    </div>
+    <div>
+        <h4>33.7. hreflang Attribute :-</h4>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th><strong>Language</strong></th>
+                        <th><strong>Code</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>English</td>
+                        <td>en</td>
+                    </tr>
+                    <tr>
+                        <td>Hindi</td>
+                        <td>hi</td>
+                    </tr>
+                    <tr>
+                        <td>Bengali</td>
+                        <td>bn</td>
+                    </tr>
+                    <tr>
+                        <td>Gujarati</td>
+                        <td>gu</td>
+                    </tr>
+                    <tr>
+                        <td>Kashmiri</td>
+                        <td>ks</td>
+                    </tr>
+                    <tr>
+                        <td>Marathi<br></td>
+                        <td>mr</td>
+                    </tr>
+                    <tr>
+                        <td>Malayalam</td>
+                        <td>ml</td>
+                    </tr>
+                    <tr>
+                        <td>Punjabi</td>
+                        <td>pa</td>
+                    </tr>
+                    <tr>
+                        <td>Sanskrit</td>
+                        <td>sa</td>
+                    </tr>
+                    <tr>
+                        <td>Tamil</td>
+                        <td>ta</td>
+                    </tr>
+                    <tr>
+                        <td>Telugu</td>
+                        <td>te</td>
+                    </tr>
+                    <tr>
+                        <td>Oriya</td>
+                        <td>or</td>
+                    </tr>
+                    <tr>
+                        <td>Sindhi</td>
+                        <td>sd</td>
+                    </tr>
+                    <tr>
+                        <td>Kannada</td>
+                        <td>kn</td>
+                    </tr>
+                    <tr>
+                        <td>Arabic<br></td>
+                        <td>ar</td>
+                    </tr>
+                    <tr>
+                        <td>Nepali</td>
+                        <td>ne</td>
+                    </tr>
+                    <tr>
+                        <td>Japanese</td>
+                        <td>ja</td>
+                    </tr>
+                    <tr>
+                        <td>French</td>
+                        <td>fr</td>
+                    </tr>
+                    <tr>
+                        <td>Indonesian</td>
+                        <td>id, in<br></td>
+                    </tr>
+                    <tr>
+                        <td>Korean</td>
+                        <td>ko<br></td>
+                    </tr>
+                    <tr>
+                        <td>Portuguese</td>
+                        <td>pt<br></td>
+                    </tr>
+                    <tr>
+                        <td>Russian<br></td>
+                        <td>ru<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;a&nbsp;hreflang="en"&nbsp;href="abhi.html"&gt;Click&nbsp;Here&lt;/a&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_58.html">output</a></div>
+        </div>
+    </div>
+    <div>
+        <h4>33.8. rel Attribute :-</h4>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th><strong>value</strong></th>
+                        <th><strong>Description</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>alternate</td>
+                        <td>Links to an alternate version of the document (i.e. print page, translated or mirror).<br></td>
+                    </tr>
+                    <tr>
+                        <td>author</td>
+                        <td>Links to the author of the document.<br></td>
+                    </tr>
+                    <tr>
+                        <td>bookmark</td>
+                        <td>Permanent URL used for bookmarking.<br></td>
+                    </tr>
+                    <tr>
+                        <td>help</td>
+                        <td>Links to a help document.<br></td>
+                    </tr>
+                    <tr>
+                        <td>license</td>
+                        <td>Links to copyright information for the document.<br></td>
+                    </tr>
+                    <tr>
+                        <td>next<br></td>
+                        <td>The next document in a selection.<br></td>
+                    </tr>
+                    <tr>
+                        <td>nofollow</td>
+                        <td>Links to an unendorsed document, like a paid link. ("nofollow" is used by Google, to specify that the Google search spider should not follow that link)<br></td>
+                    </tr>
+                    <tr>
+                        <td>noreferrer</td>
+                        <td>Specifies that the browser should not send a HTTP referer header if the user follows the hyperlink.<br></td>
+                    </tr>
+                    <tr>
+                        <td>prefetch</td>
+                        <td>Specifies that the target document should be cached.<br></td>
+                    </tr>
+                    <tr>
+                        <td>prev<br></td>
+                        <td>The previous document in a selection.<br></td>
+                    </tr>
+                    <tr>
+                        <td>search</td>
+                        <td>Links to a search tool for the document.<br></td>
+                    </tr>
+                    <tr>
+                        <td>tag</td>
+                        <td>A tag (keyword) for the current document.<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;a&nbsp;rel="help"&nbsp;href="abhi.html"&gt;Click&nbsp;Here&lt;/a&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_59.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>33.9. Link Color :-</h4>
+        <p>By default, links will appear as follows in all browsers.</p>
+        <p>An unvisited link is underlined and blue.<br></p>
+        <p>A visited link is underlined and purple.<br></p>
+        <p>An active link is underlined and red.<br></p>
+        <h4>33.9.1 :- link :-</h4>
+        <p>specifies the color of the hyperlink that has not been visited or clicked before on a webpage.<br></p>
+        <h4>33.9.2 :- vlink :-</h4>
+        <p>specifies the color of hyperlink that has been visited before on a web page.<br></p>
+        <h4>33.9.3 :- alink :-</h4>
+        <p>specifies the color of currently active links.<br></p>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body link="green"&nbsp;vlink="yellow"&nbsp;alink="black"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;a href="example1.html" target="_blank"&gt;Link 1&lt;/a&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;a href="example2.html" target="_blank"&gt;Link 2&lt;/a&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;a href="example3.html" target="_blank"&gt;Link 3&lt;/a&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_60.html">output</a></div>
+        </div>
+    </div>
+    <p class="text-center mb-5"><a class="btn btn-outline-dark btn-lg text-center" role="button" href="thirtytwo.html">Previous</a><a class="btn btn-outline-dark btn-lg text-center" role="button" href="thirtyfour.html">Next</a></p>
+    <footer class="footer-basic">
+        <p class="copyright"><strong><em>prepared by Abhiram B S</em></strong></p>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

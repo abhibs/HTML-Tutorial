@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Abhi's html tutorial</title>
+    <meta name="description" content="Abhiram B S
+Javalli
+Tudoor
+Thirthahalli
+Shivamoga
+577226">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/abhi.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand sticky-top bg-white shadow-lg">
+        <div class="container-fluid"><a class="navbar-brand" href="#">Abhiram</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="mt-5">
+        <h3 class="text-center">Chapter - 44</h3>
+        <h4 class="text-center">Form tag</h4>
+    </div>
+    <div class="mt-5">
+        <h3 class="text-left">44.1. form tag</h3>
+        <p>HTML forms are used to collect some data from the site visitor.<br></p>
+        <p>The HTML &lt;form&gt;…..&lt;/form&gt; tag is used to create an HTML form.<br></p>
+        <ul>
+            <li>&lt;input&gt;<br></li>
+            <li>&lt;textarea&gt;<br></li>
+            <li>&lt;button&gt;<br></li>
+            <li>&lt;select&gt;<br></li>
+            <li>&lt;option&gt;<br></li>
+            <li>&lt;optgroup&gt;<br></li>
+            <li>&lt;fieldset&gt;<br></li>
+            <li>&lt;label&gt;<br></li>
+        </ul>
+        <div class="table-responsive mt-5">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th>Attribute</th>
+                        <th>Value</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>accept-charset<br></td>
+                        <td>UTF-8<br></td>
+                        <td>Specifies the charset used in the submitted form (default: the page charset).<br></td>
+                    </tr>
+                    <tr>
+                        <td>action</td>
+                        <td>URL<br></td>
+                        <td>Contains a URL that defines where to send the data after submitting the form.<br></td>
+                    </tr>
+                    <tr>
+                        <td>autocomplete</td>
+                        <td>On<br>(default)<br>Off<br></td>
+                        <td>Determines that the browser retains the history of previous values.<br></td>
+                    </tr>
+                    <tr>
+                        <td>enctype</td>
+                        <td><br></td>
+                        <td>specifies how the browser encodes the data before it sends it to the server. (default: is url-encoded).<br></td>
+                    </tr>
+                    <tr>
+                        <td>method</td>
+                        <td>GET<br>(default)<br>POST<br></td>
+                        <td>Specifies how to send the form data to a web server. The data can be sent as URL variables, by using the get method or as HTTP post, by using the post method.<br></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td>name<br></td>
+                        <td>Specifies a name used to identify the form.<br></td>
+                    </tr>
+                    <tr>
+                        <td>novalidate</td>
+                        <td>novalidate<br></td>
+                        <td>Specifies that the browser should not validate the form.<br></td>
+                    </tr>
+                    <tr>
+                        <td>target</td>
+                        <td>_self<br>(default)<br>_blank<br>_parent<br>_top<br>framename<br></td>
+                        <td>Specifies the target of the address in the action attribute.<br><br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.2. input tag :-</h4>
+        <p>&lt;input&gt; tag prompts the user to enter data and also request for the information from the web server after submitting the web form. <br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;form&gt;<br>&nbsp; &nbsp; &lt;input&gt;<br>&lt;/form&gt;<br><br></code>
+        <p>No input end tag in HTML5.<br></p>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name: &lt;input&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_97.html">output</a></div>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th>Attribute</th>
+                        <th>Value</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>accept<br></td>
+                        <td>file_extension<br></td>
+                        <td>Specifies the types of files that the server accepts.<br></td>
+                    </tr>
+                    <tr>
+                        <td>alt</td>
+                        <td>text<br></td>
+                        <td>Specifies an alternate text for an image. only used with type=“image”<br></td>
+                    </tr>
+                    <tr>
+                        <td>autocomplete</td>
+                        <td>On<br>Off<br></td>
+                        <td>It enables or disable autocomplete in &lt;input&gt; tag.<br></td>
+                    </tr>
+                    <tr>
+                        <td>autofocus</td>
+                        <td>autofocus<br></td>
+                        <td>Specifies that an &lt;input&gt; element should automatically get focus when the page loads.<br></td>
+                    </tr>
+                    <tr>
+                        <td>checked</td>
+                        <td>checked<br></td>
+                        <td>Input element should be checked/selected when a web page loads. It is used only with &nbsp;type=”checkbox” and type=”radio”<br></td>
+                    </tr>
+                    <tr>
+                        <td>dirname</td>
+                        <td>inputname.dir<br></td>
+                        <td>Specifies that the text direction will be submitted.<br></td>
+                    </tr>
+                    <tr>
+                        <td>disabled</td>
+                        <td>disabled<br></td>
+                        <td>Disables the input element when it loads on the client side’s web page, so that user cannot write text in it or select it. This attribute cannot be used with type=“hidden”.<br></td>
+                    </tr>
+                    <tr>
+                        <td>form</td>
+                        <td>form_id<br></td>
+                        <td>Specifies form’s id to which the input field belongs. <br></td>
+                    </tr>
+                    <tr>
+                        <td>formaction</td>
+                        <td>URL<br></td>
+                        <td>Specifies the URL of the file that will process the input control when the form is submitted.<br></td>
+                    </tr>
+                    <tr>
+                        <td>form enctype</td>
+                        <td>application/x-www-form-urlencoded<br>multipart/form-data<br>text/plain<br></td>
+                        <td>Specifies how the form-data should be encoded when submitting it to the server.<br></td>
+                    </tr>
+                    <tr>
+                        <td>form method</td>
+                        <td>GET, POST<br></td>
+                        <td>Defines the HTTP method for sending data to the action URL.<br></td>
+                    </tr>
+                    <tr>
+                        <td>form novalidate</td>
+                        <td>formnovalidate<br></td>
+                        <td>Defines that form elements should not be validated when submitted.<br></td>
+                    </tr>
+                    <tr>
+                        <td>formtarget</td>
+                        <td>_blank<br>_self<br>_parent<br>_top<br>framename<br></td>
+                        <td>Specifies where to display the response that is received after submitting the form.<br></td>
+                    </tr>
+                    <tr>
+                        <td>height</td>
+                        <td>pixels<br></td>
+                        <td>Indicates the height of an input field.<br></td>
+                    </tr>
+                    <tr>
+                        <td>list</td>
+                        <td>Id of a datalist.<br></td>
+                        <td>Contains the id of the &lt;datalist&gt; tag where a datalist element contains various options for an input field.<br></td>
+                    </tr>
+                    <tr>
+                        <td>max</td>
+                        <td>number<br>date<br></td>
+                        <td>Specifies the maximum value for an &lt;input&gt; element number, range, date, datetime-local, month, time and week.<br></td>
+                    </tr>
+                    <tr>
+                        <td>maxlength<br>minlength<br></td>
+                        <td>number<br></td>
+                        <td>Specifies the maximum/minimum number of characters allowed<br>in a text field.<br></td>
+                    </tr>
+                    <tr>
+                        <td>min<br></td>
+                        <td>number<br>date<br></td>
+                        <td>Specifies a minimum value for an &lt;input&gt; element number, range, date, datetime-local, month, time and week.<br></td>
+                    </tr>
+                    <tr>
+                        <td>multiple<br></td>
+                        <td>multiple<br></td>
+                        <td>Indicates whether the user is allowed to enter more than one value.<br></td>
+                    </tr>
+                    <tr>
+                        <td>name<br></td>
+                        <td>text<br></td>
+                        <td>Defines a unique name for the input element. <br></td>
+                    </tr>
+                    <tr>
+                        <td>pattern<br></td>
+                        <td>regexp<br></td>
+                        <td>Specifies a regular expression that an &lt;input&gt; element's value is checked against.<br></td>
+                    </tr>
+                    <tr>
+                        <td>placeholder<br></td>
+                        <td>text<br></td>
+                        <td>Specifies a short hint that describes the expected value&nbsp; text, search, url, tel, email, and password.<br></td>
+                    </tr>
+                    <tr>
+                        <td>readonly<br></td>
+                        <td>readonly<br></td>
+                        <td>Indicates that the value of this field cannot be modified. <br></td>
+                    </tr>
+                    <tr>
+                        <td>required<br></td>
+                        <td>required<br></td>
+                        <td>Specifies that an input field must be filled out before submitting the form.<br></td>
+                    </tr>
+                    <tr>
+                        <td>size<br></td>
+                        <td>number<br></td>
+                        <td>Specifies the width of the control. If type="text" or type = "password" this refers to the width in characters. Otherwise it's in pixels<br></td>
+                    </tr>
+                    <tr>
+                        <td>src<br></td>
+                        <td>URL<br></td>
+                        <td>Defines the URL of the image to display. It can be used only with type=“image” <br><br></td>
+                    </tr>
+                    <tr>
+                        <td>step<br></td>
+                        <td>number<br></td>
+                        <td>Specifies the legal number intervals for an input field.<br><br></td>
+                    </tr>
+                    <tr>
+                        <td>type<br></td>
+                        <td>button<br>checkbox<br>color<br>date&nbsp;<br>datetime&nbsp;<br>datetime-local&nbsp;<br>email&nbsp;<br>file<br>hidden<br>image<br>month&nbsp;<br>number&nbsp;<br>password<br>radio<br>range&nbsp;<br>reset<br>search<br>submit<br>tel<br>text<br>time&nbsp;<br>url<br>week<br></td>
+                        <td>Indicates the type of the input element. The default value is text. <br><br></td>
+                    </tr>
+                    <tr>
+                        <td>value<br></td>
+                        <td>text<br></td>
+                        <td>Specifies the value of an &lt;input&gt; element.<br></td>
+                    </tr>
+                    <tr>
+                        <td>width<br></td>
+                        <td>pixels<br></td>
+                        <td>Indicates the width of an input field.<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.3. type attribute :-</h4>
+        <p>It indicates the type of input element. It’s an empty tag. The default value is text.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input&gt;<br>&lt;input type=“text”&gt;<br><br></code>
+        <h5>44.3.1. text :-</h5>
+        <p>It defines a single-line text field.</p>
+        <p>example :-</p><code class="text-dark">&lt;input type=“text”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name: &lt;input type="text"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_98.html">output</a></div>
+        </div>
+        <h5>44.3.2. Password :-</h5>
+        <p>A password field is like text field, the difference being that this control hides each typed character by displaying an asterisk(*) or bullets(●) instead of the character itself.&nbsp;</p>
+        <p>example :-</p><code class="text-dark">&lt;input type=“password”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Password: &lt;input type="password"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_99.html">output</a></div>
+        </div>
+        <h5>44.3.3. Button:-</h5>
+        <p>This is used to add a button on a web form to activate a script when an user click the button.</p>
+        <p>example :-</p><code class="text-dark">&lt;input type=“button”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="button"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_100.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p>coding example with value attribute :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="button" value="Button"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_101.html">output</a></div>
+        </div>
+        <h5>44.3.4. email :-</h5>
+        <p>This field is used to add an email address or a list of email address to a form, where type=“email” is a value for the input type. The input format should be an email like <a href="mailto:example@gmail.com">example@gmail.com</a>&nbsp;else it will prompt an error.<br></p>
+        <p>example :-</p><code class="text-dark">&lt;input type=“email”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Email:&nbsp;&lt;input type="email"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_102.html">output</a></div>
+        </div>
+        <h5>44.3.5. checkbox :-</h5>
+        <p>A check box is a small box, which when selected includes a checkmark. It is used to allow the user to select one or more than one of the options available on a web page. An User can select or clear the check box by clicking it.&nbsp;</p>
+        <p>example :-</p><code class="text-dark">&lt;input type=“checkbox”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Delhi&nbsp;&lt;input&nbsp;type="checkbox"&nbsp;name="Location"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Hydrabad&nbsp;&lt;input&nbsp;type="checkbox"&nbsp;name="Location"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Kolkata&nbsp;&lt;input&nbsp;type="checkbox"&nbsp;name="Location"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Mumbai&nbsp;&lt;input&nbsp;type="checkbox"&nbsp;name="Location"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_103.html">output</a></div>
+        </div>
+        <h5>44.3.6. Radio Button :-</h5>
+        <p>A radio button is used to create a series of options of which only one can be selected. It is displayed as a circle which when selected, displays a dot in the middle.<br></p>
+        <p>example :-</p><code class="text-dark">&lt;input type=“radio”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="radio"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_104.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p>coding example with name attribute :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Male:&nbsp;&lt;input&nbsp;type="radio"&nbsp;name="sex"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Female:&nbsp;&lt;input&nbsp;type="radio"&nbsp;name="sex"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_105.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p></p>
+        </div>
+        <h5>44.3.7. URL :-</h5>
+        <p>The URL field is used to enter only the web addresses, in their correct format. If the URL is not entered in the correct format then the URL field validates the text field to enter web address.&nbsp;<br></p>
+        <p>example :-</p><code class="text-dark">&lt;input type=“url”&gt;<br><br></code>
+        <p>Autofocus – helps in keeping the focus of mouse pointer on the input field</p>
+        <p>Autofocus – helps in keeping the focus of mouse pointer on the input field</p>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Your Website Name: &lt;input type="url"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_106.html">output</a></div>
+        </div><code class="text-dark"><br><br></code>
+        <h5>44.3.8. Search Box :-</h5>
+        <p>This is used to add a search box to a form.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“search”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="search"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_107.html">output</a></div>
+        </div>
+        <h5>44.3.9. tel :-</h5>
+        <p>The tel type represents a one-line plain-text edit for entering a telephone number.&nbsp;<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“tel”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="tel"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_108.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p>coding example with name attribute :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="tel" name="phone"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_109.html">output</a></div>
+        </div>
+        <h5>44.3.10. Range :-</h5>
+        <p>Range input represents the input of limited range numerical values.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“range”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="range"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_110.html">output</a></div>
+        </div>
+        <h5>44.3.11. Number :-</h5>
+        <p>Number is used to validate the textbox only if the value within the field is a numerical value.&nbsp;<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“number”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="number"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_111.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p>coding example with value attribute :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="number" value="5"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_112.html">output</a></div>
+        </div>
+        <h5>44.3.12. File :-</h5>
+        <p>This is used to upload a file on a web page. You also need to set the enctype=“multipart/form-data”<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“file”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="file"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_113.html">output</a></div>
+        </div>
+        <h5>44.3.13. Image :-</h5>
+        <p>It represents either an image from which the UA enables a user to interactively select a pair of coordinates and submit the form, or alternatively a button from which the user can submit the form.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“image”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="image" src="assets/img/submit1.jpg"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_114.html">output</a></div>
+        </div>
+        <h5>44.3.14. Hidden :-</h5>
+        <p>A hidden control stores the data that is not visible to the user on a web page. This control is used to submit some information, which can not be edited by user.&nbsp;<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“hidden”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark">&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name:&nbsp;&lt;input type="text" name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="hidden"&nbsp;name="country"&nbsp;value="INDIA"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_115.html">output</a></div>
+        </div>
+        <h5>44.3.15. Submit :-</h5>
+        <p>A submit button is used to transfer form data to the URL specified in the &lt;form action&gt; tag.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“submit”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_116.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p>coding example with name and value attribute :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="submit" name="submit" value="Click Here"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_117.html">output</a></div>
+        </div>
+        <h5>44.3.16. Reset :-</h5>
+        <p>A reset button helps user to clear all the data that they have entered in the text fields.&nbsp;<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“reset”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="reset"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_118.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;name="sub"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="reset"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_119.html">output</a></div>
+        </div>
+        <h5>44.3.17. Date :-</h5>
+        <p>This is used for input fields that should contain a date.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“date”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="date"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_120.html">output</a></div>
+        </div>
+        <h5>44.3.18. Time :-</h5>
+        <p>It allows the user to select a time.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“time”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="time"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_121.html">output</a></div>
+        </div>
+        <h5>44.3.19. DateTime :-</h5>
+        <p>It allows the user to select&nbsp; date and time.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“datetime”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="datetime"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_122.html">output</a></div>
+        </div>
+        <h5>44.3.20. DateTime-local :-</h5>
+        <p>It allows the user to select a date and time.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“datetime-local”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="datetime-local"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_123.html">output</a></div>
+        </div>
+        <h5>44.3.21. Month :-</h5>
+        <p>It allows the user to select a month and year.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“month”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="month"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_124.html">output</a></div>
+        </div>
+        <h5>44.3.22. Week :-</h5>
+        <p>It allows the user to select a week and year.&nbsp;<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“week”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="week"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_125.html">output</a></div>
+        </div>
+        <h5>44.3.23. Color :-</h5>
+        <p>It is used for input fields that should contain a color.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;input type=“color”&gt;<br><br></code>
+    </div>
+    <div>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="color"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_126.html">output</a></div>
+        </div>
+        <h4>44.4. Action Attribute :-</h4>
+        <p>It contains a URL that defines where to send the data after submitting the form. It specifies the physical address of the server to which the user data should be redirected at the click of the submit button.<br></p>
+        <p>example :-<br></p>
+        <p>action=http://www.something.com/something.html<br></p>
+        <p>action=“page.html”<br></p>
+        <p>action=“gotform.php”<br></p>
+        <p>action=“example.asp”<br></p>
+        <p>If the action attribute is omitted, the action is set to the current page.<br></p>
+    </div>
+    <div class="mt-5">
+        <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form action="gotform.php"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="reset"&nbsp;value="Reset"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+        <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_127.html">output</a></div>
+    </div>
+    <div>
+        <h4>44.5. Auto complete :-</h4>
+        <h5>44.5.1. On :-</h5>
+        <p>The browser will automatically complete values based on values that the user has entered before.<br></p>
+        <h5>44.5.2. Off :-</h5>
+        <p>User need to write all values each time they fill the form.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;form autocomplete=“off”&gt;<br><br></code>
+    </div>
+    <div>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form action="gotform.php" autocomplete="on"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="reset"&nbsp;value="Reset"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_128.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form action="gotform.php" autocomplete="on"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name" autocomplete="off"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="reset"&nbsp;value="Reset"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_129.html">output</a></div>
+        </div>
+        <h4>44.6. enctype Attribute :-</h4>
+        <p>It specifies how the browser encodes the data before it sends it to the server.&nbsp;&nbsp;<br></p>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr class="text-white" style="background: #000000;">
+                        <th>Value</th>
+                        <th><strong>Description</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>application<br>/x-www-form-urlencoded<br><br></td>
+                        <td>All characters are encoded before sent (spaces are converted to "+" symbols, and special characters are converted to ASCII HEX values)<br><br></td>
+                    </tr>
+                    <tr>
+                        <td>multipart/form-data<br></td>
+                        <td>No characters are encoded. This value is required when you are using forms that<br>have a file upload control.<br></td>
+                    </tr>
+                    <tr>
+                        <td>text/plain<br></td>
+                        <td>Spaces are converted to "+" symbols, but no special characters are encoded.<br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>example :-</p><code class="text-dark">&lt;form enctype = “multipart/form-data”&gt;<br><br></code>
+    </div>
+    <div>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form action="gotform.php" enctype="multipart/form-data"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="reset"&nbsp;value="Reset"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_130.html">output</a></div>
+        </div>
+        <h4>44.7. Method Attribute :-</h4>
+        <p>It Specifies how to send the form data to a web server. The data can be sent as URL variables, by using the get method or as HTTP post, by using the post method.<br></p>
+        <ul>
+            <li>GET (default)<br></li>
+            <li>POST<br></li>
+        </ul>
+        <h5>44.7.1. GET :-&nbsp;</h5>
+        <p>GET sends the data as part of the URL.&nbsp;<br></p>
+        <p>Appends form-data into the URL in name/value pairs.<br></p>
+        <p>The length of a URL is limited 2048 characters.<br></p>
+        <p>Never use GET method if you have password or other sensitive information to be sent to the server.<br></p>
+        <p>Useful for form submissions where a user want to bookmark the result.<br></p>
+        <p>GET is better for non-secure data, like query strings in Google.<br></p>
+        <p>GET can't be used to send binary data, ex:-&nbsp; images or word documents.<br></p>
+        <p>example :-<br></p><code class="text-dark">&lt;form action=“some.php” method = “GET”&gt;<br><br></code>
+        <p>If we use an invalid value for the method attribute of the &lt;form&gt; tag, the browser will use the default value GET.<br></p>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form action="gotform.php" method="GET"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="reset"&nbsp;value="Reset"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_131.html">output</a></div>
+        </div>
+        <div>
+            <h5>44.7.2. POST:-&nbsp;</h5>
+            <p>HTTP POST requests supply additional data from the client (browser) to the server in the message body. <br></p>
+            <p>Appends form-data inside the body of the HTTP request (data is not shown is in URL)<br></p>
+            <p>The POST method does not have any restriction on data size to be sent.<br></p>
+            <p>Form submissions with POST cannot be bookmarked<br></p>
+            <p>The POST method can be used to send ASCII as well as binary data.<br>Ex:-&nbsp; image and word documents etc<br></p>
+            <p>The data sent by POST method goes through HTTP header so security depends on HTTP protocol. By using Secure HTTP you can make sure that your information is secure.<br></p>
+            <p>POST is a little safer than GET because the parameters are not stored in browser history or in web server logs<br></p>
+            <p>example :-<br></p><code class="text-dark">&lt;form action=“some.php” method = “POST”&gt;<br></code>
+            <div class="mt-5">
+                <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form action="gotform.php" method="POST"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="reset"&nbsp;value="Reset"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+                <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_132.html">output</a></div>
+            </div>
+            <div>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead style="background: #080808;">
+                            <tr>
+                                <th></th>
+                                <th class="text-white">GET</th>
+                                <th class="text-white">POST</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>BACK button/Reload<br></td>
+                                <td>Harmless<br></td>
+                                <td>Data will be re-submitted (the browser should alert the user that the data are about to be re-submitted)<br></td>
+                            </tr>
+                            <tr>
+                                <td>Bookmarked<br></td>
+                                <td>Can be bookmarked<br></td>
+                                <td>Cannot be bookmarked<br></td>
+                            </tr>
+                            <tr>
+                                <td>Cached<br></td>
+                                <td>Can be cached<br></td>
+                                <td>Not cached<br></td>
+                            </tr>
+                            <tr>
+                                <td>Encoding type<br></td>
+                                <td>application/x-www-form-urlencoded<br></td>
+                                <td>application/x-www-form-url encoded or multipart/form-data. Use multipart encoding for binary data<br></td>
+                            </tr>
+                            <tr>
+                                <td>History<br></td>
+                                <td>Parameters remain in browser history<br></td>
+                                <td>Parameters are not saved in browser history<br></td>
+                            </tr>
+                            <tr>
+                                <td>Restrictions<br>on data type<br></td>
+                                <td>Only ASCII characters allowed<br></td>
+                                <td>No restrictions. Binary data is also allowed<br></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.8. Name Attribute :-</h4>
+        <p>Specifies a name used to identify the form<br></p>
+        <p>It is Used to give a name to the control which is sent to the server to be recognized and get the value.<br></p>
+        <p>name=“lastname”<br></p>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;First&nbsp;Name:&lt;input&nbsp;type="text"&nbsp;name="fname"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Last&nbsp;Name:&lt;input&nbsp;type="text"&nbsp;name="lname"&gt;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_133.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.9. Value Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name: &lt;input type="text" value="Abhiram"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_134.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.10. Required Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&nbsp;required&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass" required&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city" required&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_135.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.11. No Validate Attribute :-</h4>
+        <p>If we use novalidate attribute in form tag then the validation will not take place, even if there is a required filed.<br></p>
+        <p>&lt;form novalidate&gt;<br></p>
+        <p>&lt;form novalidate=“novalidate”&gt;<br></p>
+        <p>&lt;form novalidate=“true”&gt;<br></p>
+        <p>&lt;form novalidate=“true”&gt;<br></p>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form novalidate&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&nbsp;required&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass" required&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city" required&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_136.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.12. Form No Validate Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&nbsp;required&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass" required&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city" required&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="Submit"&nbsp;value="Save"&nbsp;formnovalidate&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_137.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.13. Accept Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Upload&nbsp;File:&nbsp;&lt;input&nbsp;type="file"&nbsp;name="file"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_138.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p>coding example&nbsp; :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Upload&nbsp;File:&nbsp;&lt;input&nbsp;type="file"&nbsp;name="file" accept=".jpg"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_139.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Upload&nbsp;File:&nbsp;&lt;input&nbsp;type="file"&nbsp;name="file" accept=".mp3"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_140.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Upload&nbsp;File:&nbsp;&lt;input&nbsp;type="file"&nbsp;name="file" accept="image/*"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_141.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.14. Checked Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Karnataka &lt;input&nbsp;type="checkbox"&nbsp;name="Location"&nbsp;checked="checked"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Hydrabad&nbsp;&lt;input&nbsp;type="checkbox"&nbsp;name="Location"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Kolkata&nbsp;&lt;input&nbsp;type="checkbox"&nbsp;name="Location"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Mumbai&nbsp;&lt;input&nbsp;type="checkbox"&nbsp;name="Location"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Male:&nbsp;&lt;input&nbsp;type="radio"&nbsp;name="sex"&nbsp;checked="checked"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Female:&nbsp;&lt;input&nbsp;type="radio"&nbsp;name="sex"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_142.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.15. Auto Focus Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name" autofocus&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Upload&nbsp;File:&nbsp;&lt;input&nbsp;type="file"&nbsp;name="file" accept="image/*"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_143.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.16. Dirname Attribute :-</h4>
+        <p>Specifies that the text direction will be submitted.<br></p>
+        <div class="mt-5 mb-5">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead class="text-white" style="background: #000000;">
+                        <tr>
+                            <th><strong>Value</strong></th>
+                            <th><strong>Description</strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ltr</td>
+                            <td>Default. Left-to-right text direction<br></td>
+                        </tr>
+                        <tr>
+                            <td>rtl</td>
+                            <td>Right-to-left text direction<br></td>
+                        </tr>
+                        <tr>
+                            <td>auto</td>
+                            <td>Let the browser figure out the text direction, based on the content<br></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <p>example :-</p><code class="text-dark">&lt;input type=“text” name=“city” dirname=“city.dir”&gt;<br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city" dirname="city.dir"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_144.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.17. Disabled Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&nbsp;disabled&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_145.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.18. Accept-Charset Attribute :-</h4>
+        <p>It specifies the character encodings that are to be used for the form submission.<br></p>
+        <p><strong>ISO-8859-1&nbsp;</strong>Character encoding for the Latin alphabet<br></p>
+        <p><strong>UTF-8&nbsp;</strong>Character encoding for Unicode<br></p>
+        <p>example :-</p><code class="text-dark">&lt;form accept-charset=“UTF-8”&gt;<br><br></code>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="reset"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_146.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.19. Form Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form id="form1"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass" form="form2"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;hr&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form id="form2"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_147.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form id="form1"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;State:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="state"&nbsp;form="form1"&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_148.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.20. Formaction Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;h3&gt;Submited&nbsp;By&nbsp;User&lt;/h3&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;h3&gt;Submited&nbsp;By&nbsp;Admin&lt;/h3&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form action="user.html"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Admin&nbsp;Submit"&nbsp;formaction="admin.html"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_149.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.21. Formenctype Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form enctype="application/x-www-form-urlencoded"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Upload:&nbsp;&lt;input&nbsp;type="file"&nbsp;name="file"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Admin&nbsp;Submit" formenctype="multipart/form-data"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_150.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.22. Formmethod Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form method="GET"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Admin&nbsp;Submit" formmethod="POST"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_151.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.23. Formtarget Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form action="user.html"&nbsp;target="_blank"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Admin&nbsp;Submit" formaction="admin.html" formtarget="_self"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_152.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.24. Formtarget Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form action="user.html"&nbsp;target="_blank"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;name="pass"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;City:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="city"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Admin&nbsp;Submit" formaction="admin.html" formtarget="_self"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_152.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.25. Min &amp; Max Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Number:&nbsp;&lt;input&nbsp;type="number"&nbsp;min="5"&nbsp;max="15"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Range:&nbsp;&lt;input&nbsp;type="range"&nbsp;min="0"&nbsp;max="5"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Date:&nbsp;&lt;input&nbsp;type="date"&nbsp;min="1997-02-18"&nbsp;max="2021-05-06"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_153.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.26. Minlength &amp; Maxlength Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;maxlength="10"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Password:&nbsp;&lt;input&nbsp;type="password"&nbsp;minlength="5"&nbsp;maxlength="15"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_154.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.27. Size Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text" size="50"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_155.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.28. Placeholder Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text" placeholder="Enter&nbsp;Your&nbsp;Name"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_156.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.29. Readonly Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Name:&nbsp;&lt;input&nbsp;type="text" name="fname" value="Abhiram" readonly&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_157.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.30. Multiple Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Email:&nbsp;&lt;input&nbsp;type="email"&nbsp;name="email"&nbsp;multiple&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_158.html">output</a></div>
+        </div>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Upload:&nbsp;&lt;input&nbsp;type="file"&nbsp;name="file"&nbsp;multiple&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_159.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.31. Step Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Number:&nbsp;&lt;input&nbsp;type="number"&nbsp;step="4"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_160.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.32. Pattern Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;pattern="^[a-z]+$"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_161.html">output</a></div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <h4>44.33. Title Attribute :-</h4>
+        <div class="mt-5">
+            <p>coding example :-</p><code class="text-dark"><br>&lt;html&gt;<br>&nbsp; &nbsp;&nbsp;&lt;head&gt;<br>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&lt;title&gt;Abhiram&lt;/title&gt;<br>&nbsp; &nbsp; &lt;/head&gt;<br>&nbsp; &nbsp; &lt;body&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;form&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name:&nbsp;&lt;input&nbsp;type="text"&nbsp;pattern="^[a-z]+$" title="Example:&nbsp;abcde"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br>&nbsp; &nbsp; &lt;/body&gt;<br>&lt;/html&gt;<br><br><br></code>
+            <div class="text-left mt-5 mb-5"><a class="btn btn-outline-dark btn-sm" role="button" target="_blank" href="outputs/output_162.html">output</a></div>
+        </div>
+    </div>
+    <p class="text-center mb-5"><a class="btn btn-outline-dark btn-lg text-center" role="button" href="fortythree.html">Previous</a><a class="btn btn-outline-dark btn-lg text-center" role="button" href="fortyfive.html">Next</a></p>
+    <footer class="footer-basic">
+        <p class="copyright"><strong><em>prepared by Abhiram B S</em></strong></p>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
